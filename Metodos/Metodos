@@ -1,0 +1,37 @@
+
+-----------------  PARA LAS CADENAS ------------------
+
+Funciones comunes
+
+    len(cadena) → longitud de una cadena (por ejemplo, para validar campos)
+    type(valor) → saber si algo es string, int, etc.
+
+Métodos de cadena (string methods)
+Solo funcionan con cadenas (str):
+
+    upper() → convierte a mayúsculas
+    lower() → convierte a minúsculas
+    split() → divide la cadena en una lista
+    strip() → elimina espacios al inicio y al final
+    capitalize() → primera letra en mayúscula, las demás en minúscula
+    replace() → reemplaza texto
+    find() → devuelve posición de un texto dentro de la cadena
+    count() → cuenta cuántas veces aparece un texto
+
+Indexado y slicing
+    cadena[-4:] → los últimos 4 caracteres
+    cadena[::-1] → cadena invertida
+
+------------- PARA LOS ENTEROS -----------------
+
+Funciones útiles con enteros
+    type(x) → tipo de variable
+    int(x) → convierte a entero
+    float(x) → convierte a decimal
+    abs(x) → valor absoluto
+    pow(x, y) → potencia (x elevado a y)
+    round(x) → redondea
+    divmod(x, y) → devuelve (cociente, residuo)
+    sum(lista) → suma todos los elementos
+    max(lista) / min(lista) → mayor o menor valor
+
