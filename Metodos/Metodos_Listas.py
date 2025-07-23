@@ -25,16 +25,13 @@ print(punto[0])  # Imprime 3
 print(punto[1])  # Imprime 4
 
 # Diccionario
-
 persona = {"nombre": "Juan", "edad": 25, "ciudad": "Madrid"}
 print(persona["nombre"])  # Imprime "Juan"
 print(persona["edad"])    # Imprime 25
 print(persona["ciudad"])  # Imprime "Madrid"
 
-
 # Metodos
 persona = {"nombre": "Juan", "edad": 25, "ciudad": "Madrid"}
-
 print(persona.keys())    # Imprime dict_keys(["nombre", "edad", "ciudad"])
 print(persona.values())  # Imprime dict_values(["Juan", 25, "Madrid"])
 print(persona.items())   # Imprime dict_items([("nombre", "Juan"), ("edad", 25), ("ciudad", "Madrid")])
